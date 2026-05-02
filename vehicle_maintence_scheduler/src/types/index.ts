@@ -3,11 +3,7 @@
  *
  * These mirror the shapes returned by the evaluation-server APIs
  * and define the scheduler's own response structures.
- */
 
-/* ------------------------------------------------------------------ */
-/*  API response shapes                                                */
-/* ------------------------------------------------------------------ */
 
 /** A single depot returned by GET /evaluation-service/depots */
 export interface Depot {
@@ -32,9 +28,7 @@ export interface VehiclesResponse {
   vehicles: Vehicle[];
 }
 
-/* ------------------------------------------------------------------ */
-/*  Scheduler output shapes                                            */
-/* ------------------------------------------------------------------ */
+/*  Scheduler output shapes */
 
 /** The optimal schedule computed for one depot */
 export interface DepotSchedule {
